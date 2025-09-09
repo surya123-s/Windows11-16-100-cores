@@ -53,7 +53,7 @@ Everything runs automatically, creating **self-sufficient, ready-to-use workstat
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Workflow Trigger        | Manual, enter **INSTANCE** number ✋                                                                                                                                                                                                            |
 | Runner                  | Windows (`windows-11-arm`) 💻                                                                                                                                                                                                                  |
-| Secrets Required        | `SECRET_SHAHZAIB`, `NGROK_SHAHZAIB` 🔐                                                                                                                                                                                                         |
+| Secrets Required        | `GIT_AUTH_KEY`, `NGROK_AUTH_KEY` 🔐                                                                                                                                                                                                         |
 | Chrome & Brave Profiles | 3 isolated profiles per browser 🖥️                                                                                                                                                                                                            |
 | Extensions Installed    | WebRTC Protect 🛡️, Video Quality Settings 🎥, Random YouTube Video 🎲, Proton VPN 🔒, Stop Autoplay Next ⏹️, YouTube Nonstop 🔁, uBlock Origin 🚫, Ghostery 👻, Tab Auto Refresh 🔄, Adguard, IDM Integration Module, YouTube Ad Auto Skipper |
 | Personalization         | Wallpaper & theme applied via PowerShell 🎨                                                                                                                                                                                                    |
@@ -82,8 +82,8 @@ Everything runs automatically, creating **self-sufficient, ready-to-use workstat
 * Runner: **windows-11-arm** (Windows 11 environment) 🖥️
 * GitHub secrets configured:
 
-  * `SECRET_SHAHZAIB` 🔑
-  * `NGROK_SHAHZAIB` 🌐
+  * `GIT_AUTH_KEY` 🔑
+  * `NGROK_AUTH_KEY` 🌐
 
 ---
 
