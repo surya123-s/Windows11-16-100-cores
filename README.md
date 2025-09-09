@@ -89,10 +89,10 @@ Everything runs automatically, creating **self-sufficient, ready-to-use workstat
 
 ## 🙌 Credits 🛡️
 
-Built & maintained by **SHAHZAIB-YT** — orchestrating Windows 11 fortresses with tactical precision. 🔋
+Built & maintained by **⚡ Surya...!!!** — orchestrating Windows 11 fortresses with tactical precision. 🔋
 
 ---
 
-Ready to deploy your **EnigMano Windows 11 fortress**? Command the silent hand now! 🌀✋🛡️
+Ready to deploy your **EnigMano Windows 11 fortress - but your repo should be public**? Command the silent hand now! 🌀✋🛡️
 
 ---
