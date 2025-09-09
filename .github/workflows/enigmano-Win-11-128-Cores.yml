@@ -1,4 +1,4 @@
-name: "⚡ EnigMano Win11 + 128 Cores Deployment"
+name: "⚡Win11 + 128 Cores Modified by Surya...!!!"
 
 on:
   workflow_dispatch:
@@ -15,8 +15,8 @@ jobs:
 
     env:
       INSTANCE_ID: ${{ github.event.inputs.INSTANCE }}
-      SECRET_SHAHZAIB: ${{ secrets.SECRET_SHAHZAIB }}
-      NGROK_SHAHZAIB: ${{ secrets.NGROK_SHAHZAIB }}
+      GIT_AUTH_KEY: ${{ secrets.GIT_AUTH_KEY }}
+      NGROK_AUTH_KEY: ${{ secrets.NGROK_AUTH_KEY }}
       REPO: ${{ github.repository }}
       WORKFLOW_FILE: "enigmano-Win-11-128-Cores.yml"
       DEPLOYMENT_ID: ${{ github.run_id }}
@@ -37,12 +37,12 @@ jobs:
       - name: 🔐 Validate Secrets
         shell: pwsh
         run: |
-          if (-not $env:SECRET_SHAHZAIB) {
-            Write-Error "❌ Missing GitHub Secret: SECRET_SHAHZAIB"
+          if (-not $env:GIT_AUTH_KEY) {
+            Write-Error "❌ Missing GitHub Secret: GIT_AUTH_KEY"
             exit 1
           }
-          if (-not $env:NGROK_SHAHZAIB) {
-            Write-Error "❌ Missing Ngrok Auth Token: NGROK_SHAHZAIB"
+          if (-not $env:NGROK_AUTH_KEY) {
+            Write-Error "❌ Missing Ngrok Auth Token: NGROK_AUTH_KEY"
             exit 1
           }
           Write-Host "✅ All required secrets validated successfully"
